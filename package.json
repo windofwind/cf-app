@@ -3,9 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start:dev": "next dev",
-    "build": "next build",
+    "build": "pnpm build:clean && next build",
+    "build:clean": "rimraf .next",
     "start": "next start",
+    "start:dev": "next dev",
     "lint": "next lint"
   },
   "dependencies": {
