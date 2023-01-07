@@ -1,6 +1,10 @@
 /** @type {import('next').NextConfig} */
 
-const nextConfig = {
+const nextConfi = {
+  experimental: {
+    runtime: "experimental-edge",
+    appDir: true,
+  },
   swcMinify: true,
   reactStrictMode: true,
   compiler: {},
