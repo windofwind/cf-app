@@ -7,6 +7,8 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    container: {},
+    
   },
   plugins: [],
 };

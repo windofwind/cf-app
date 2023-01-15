@@ -13,9 +13,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="text-5xl font-bold underline">HELLO WORLD</div>
-      <Button label="Show" />
-      <Calendar></Calendar>
+      <div className="container">
+        <div className="text-5xl font-bold underline">HELLO WORLD</div>
+      </div>
+
+      <div className="container">
+        <Button label="Show" />
+      </div>
+
+      <div className="container">
+        <Calendar></Calendar>
+      </div>
     </>
   );
 }
